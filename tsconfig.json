@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2020",                      /* O puedes probar con 'esnext' */
+    "module": "nodenext",                    /* Usa 'commonjs' si prefieres módulos CommonJS */
+    "esModuleInterop": true,                 /* Soporte para módulos ES */
+    "forceConsistentCasingInFileNames": true, /* Asegura que el casing sea consistente en los imports */
+    "strict": true,                          /* Activa todas las verificaciones estrictas */
+    "skipLibCheck": true,                    /* Omite la verificación de archivos .d.ts */
+    "rootDir": "./src",                      /* Define el directorio raíz de los archivos fuente */
+    "outDir": "./dist"                       /* Carpeta de salida donde se colocarán los archivos compilados */
+  },
+  "include": ["src/**/*"],                   /* Incluye todos los archivos en src */
+  "exclude": ["node_modules"]                /* Excluye la carpeta node_modules */
+}

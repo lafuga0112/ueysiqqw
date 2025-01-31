@@ -28,7 +28,7 @@ export const WebhookController = async (req: Request, res: Response) => {
 
     // Use WebSocketController to send the message
     sendMessageToCallId(uuid as string, eventMessage);
-    //console.log(JSON.stringify(eventMessage, null, 2));
+    console.log(JSON.stringify(eventMessage, null, 2));
 
     return res.json({
       success: true,
